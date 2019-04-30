@@ -8,6 +8,7 @@
     "build": "nuxt generate"
   },
   "dependencies": {
+    "@nuxtjs/pwa": "^3.0.0-beta.14",
     "nuxt": "^2.6.3"
   },
   "devDependencies": {

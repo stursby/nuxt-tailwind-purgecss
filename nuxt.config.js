@@ -17,7 +17,7 @@ export default {
     }
   },
   css: ['~/assets/css/main.css'],
-  modules: ['nuxt-purgecss'],
+  modules: ['nuxt-purgecss', '@nuxtjs/pwa'],
   build: {
     postcss: {
       plugins: {
