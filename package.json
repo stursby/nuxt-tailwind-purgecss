@@ -1,0 +1,22 @@
+{
+  "name": "nuxt-tailwind-purgecss",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^2.6.3"
+  },
+  "devDependencies": {
+    "nuxt-purgecss": "^0.2.1",
+    "tailwindcss": "^1.0.0-beta.8"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "none"
+  }
+}
