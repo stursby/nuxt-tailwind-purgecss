@@ -5,8 +5,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "nuxt",
-    "build": "nuxt generate",
-    "deploy": "surge dist https://nuxt-tailwind-purgecss-demo.surge.sh"
+    "build": "nuxt generate"
   },
   "dependencies": {
     "nuxt": "^2.6.3"
