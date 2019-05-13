@@ -9,11 +9,11 @@
   },
   "dependencies": {
     "@nuxtjs/pwa": "^3.0.0-beta.14",
-    "nuxt": "^2.6.3"
+    "nuxt": "^2.6.3",
+    "tailwindcss": "^1.0.0"
   },
   "devDependencies": {
-    "nuxt-purgecss": "^0.2.1",
-    "tailwindcss": "^1.0.0-beta.8"
+    "nuxt-purgecss": "^0.2.1"
   },
   "prettier": {
     "semi": false,
