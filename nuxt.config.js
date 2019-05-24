@@ -21,7 +21,7 @@ export default {
   build: {
     postcss: {
       plugins: {
-        tailwindcss: {}
+        tailwindcss: 'tailwind.config.js'
       }
     }
   },
