@@ -70,7 +70,6 @@ This project is build using the following software & plugins:
 - [Vue](https://vuejs.org/)
 - [Nuxt.js](https://nuxtjs.org/)
 - [Tailwind CSS](http://showdownjs.github.io/showdown/)
-- [Purgecss](https://github.com/FullHuman/purgecss)
-- [nuxt-purgecss](https://github.com/Developmint/nuxt-purgecss)
+- [Nuxt Tailwind module](https://github.com/nuxt-community/tailwindcss-module)
 - [@nuxt/pwa](https://pwa.nuxtjs.org/)
 - [Netlify](https://www.netlify.com/)
