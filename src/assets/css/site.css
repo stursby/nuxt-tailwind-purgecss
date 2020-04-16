@@ -1,0 +1,6 @@
+/* site specific styles */
+.custom {
+  @apply text-red-600 mt-6;
+
+  transform: skew(-10deg);
+}

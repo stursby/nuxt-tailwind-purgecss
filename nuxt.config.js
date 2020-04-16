@@ -16,16 +16,6 @@ export default {
       lang: 'en'
     }
   },
-  css: ['~/assets/css/main.css'],
-  modules: ['nuxt-purgecss', '@nuxtjs/pwa'],
-  build: {
-    postcss: {
-      plugins: {
-        tailwindcss: 'tailwind.config.js'
-      }
-    }
-  },
-  purgeCSS: {
-    mode: 'postcss'
-  }
+  modules: ['@nuxtjs/pwa'],
+  buildModules: ['@nuxtjs/tailwindcss']
 }

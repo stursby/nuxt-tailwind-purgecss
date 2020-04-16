@@ -8,12 +8,12 @@
     "build": "nuxt generate"
   },
   "dependencies": {
-    "@nuxtjs/pwa": "^3.0.0-beta.14",
-    "nuxt": "^2.6.3",
-    "tailwindcss": "^1.0.0"
+    "@nuxtjs/pwa": "^3.0.0-beta.20",
+    "nuxt": "^2.12.2",
+    "tailwindcss": "^1.2.0"
   },
   "devDependencies": {
-    "nuxt-purgecss": "^0.2.1"
+    "@nuxtjs/tailwindcss": "^1.4.0"
   },
   "prettier": {
     "semi": false,
