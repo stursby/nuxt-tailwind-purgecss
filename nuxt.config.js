@@ -17,5 +17,14 @@ export default {
     }
   },
   modules: ['@nuxtjs/pwa'],
-  buildModules: ['@nuxtjs/tailwindcss']
+  buildModules: ['@nuxtjs/tailwindcss'],
+  purgeCSS: {
+    extractors: [
+      {
+        extractor(content) {
+          return content.match(/[\w-/.:]+(?<!:)/g) || []
+        }
+      }
+    ]
+  }
 }
